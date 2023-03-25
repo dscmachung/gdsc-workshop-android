@@ -1,12 +1,7 @@
-open class Parents() {
-    open var hairColor = "Blue"
-    open var heightCategory = "Tall"
-}
-
-class Child(): Parents() {
-
+enum class Color(var data: String) {
+    Blue("biru muda"), Green("hijau"), Red("merah")
 }
 
 fun main(args: Array<String>) {
-    println(Child().hairColor)
+    println(Color.Blue.data)
 }
