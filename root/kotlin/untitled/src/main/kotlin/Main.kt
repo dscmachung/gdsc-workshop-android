@@ -1,22 +1,12 @@
-import testing.Road
+open class Parents() {
+    open var hairColor = "Blue"
+    open var heightCategory = "Tall"
+}
 
-// Class = blueprint
-class House {
-    // properties
-    var color:String = "merah"
-    var windows: Int = 4
-    var isSale: Boolean = false
+class Child(): Parents() {
 
-    // method
-    fun updateColor(color: String){
-        this.color = color
-    }
-    fun putOnSale(isSale: Boolean) {
-        this.isSale = isSale
-    }
 }
 
 fun main(args: Array<String>) {
-    val myHouse = House()
-    println(myHouse.isSale)
+    println(Child().hairColor)
 }
