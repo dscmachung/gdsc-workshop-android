@@ -1,7 +1,22 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import testing.Road
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+// Class = blueprint
+class House {
+    // properties
+    var color:String = "merah"
+    var windows: Int = 4
+    var isSale: Boolean = false
+
+    // method
+    fun updateColor(color: String){
+        this.color = color
+    }
+    fun putOnSale(isSale: Boolean) {
+        this.isSale = isSale
+    }
+}
+
+fun main(args: Array<String>) {
+    val myHouse = House()
+    println(myHouse.isSale)
 }
