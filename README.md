@@ -1,4 +1,4 @@
-# Welcome to GDSC Workshop Android
+# Welcome to GDSC Git Training for Workshop Android
 This `README` is just an example to help you get Android app running locally. 
 If you encounter any issues please
 do not hesitate to post in Issue tab or reach mail us ^_^
